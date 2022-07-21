@@ -1,6 +1,10 @@
 {
-  "name": "learnstorybook-design-system-template",
+  "name": "@horhori/storybookpublish",
+  "description": "Storybook npm publish test",
   "version": "0.1.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "repository": "https://github.com/horhori/storybookpublish.git",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -38,7 +42,16 @@
       }
     ]
   },
-  "babel": {},
+  "babel": {
+    "preset": [
+      [
+        "react-app",
+        {
+          "absoluteRuntime": false
+        }
+      ]
+    ]
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -52,6 +65,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/cli": "^7.18.9",
     "@storybook/addon-actions": "^6.5.9",
     "@storybook/addon-essentials": "^6.5.9",
     "@storybook/addon-interactions": "^6.5.9",
@@ -62,9 +76,12 @@
     "@storybook/preset-create-react-app": "^3.2.0",
     "@storybook/react": "^6.5.9",
     "@storybook/testing-library": "^0.0.13",
+    "auto": "^10.37.2",
     "chromatic": "^6.7.0",
+    "cross-env": "^7.0.3",
     "prettier": "^2.7.1"
   },
   "readme": "ERROR: No README data found!",
-  "_id": "learnstorybook-design-system-template@0.1.0"
+  "_id": "learnstorybook-design-system-template@0.1.0",
+  "author": "horhori <horhori@naver.com>"
 }

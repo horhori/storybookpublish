@@ -1,11 +1,8 @@
-# v0.1.1 (Thu Jul 21 2022)
+# v0.1.0 (Thu Jul 21 2022)
 
 #### ⚠️ Pushed to `master`
 
-- make Button line red ([@horhori](https://github.com/horhori))
-- storybook deployment with github action ([@horhori](https://github.com/horhori))
-- update ([@horhori](https://github.com/horhori))
-- first commit ([@horhori](https://github.com/horhori))
+- Created first version of the design system, with `Avatar`, `Badge`, `Button`, `Icon` and `Link` components.
 
 #### Authors: 1
 
